@@ -1,0 +1,19 @@
+{
+    "name": "mac/paypal",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "luka datunashvili",
+            "email": "luka.d@zrabo.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "league/omnipay": "^3.2",
+        "omnipay/paypal": "^3.0"
+    }
+}
